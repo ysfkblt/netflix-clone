@@ -1,0 +1,37 @@
+:root {
+	--dark: #686868;
+}
+
+.container {
+	padding: 50px;
+	font-size: small;
+}
+
+.sub-links ul {
+	list-style: none;
+	padding: 0;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	margin: auto;
+	width: 60%;
+}
+
+.sub-links a {
+	color: var(--dark);
+	text-decoration: none;
+}
+
+.sub-links a:hover {
+	color: var(--dark);
+	text-decoration: underline;
+}
+
+.sub-links footer {
+	font-size: small;
+	padding: 2%;
+	text-align: start;
+	color: var(--dark);
+	margin: auto;
+	width: 60%;
+}
