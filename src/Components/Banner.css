@@ -1,8 +1,8 @@
-.bn {
-	object-fit: contain;
-	height: 565px;
-	margin-bottom: 1%;
-}
+/* .bn {
+		object-fit: contain;
+		height: 565px;
+		margin-bottom: 1%;
+	} */
 
 .bn_cvr {
 	box-shadow: 5px 5px 50px 0 rgb(0, 0, 0) inset,
@@ -15,18 +15,18 @@
 	margin-left: 2.5%;
 }
 
-.bn_ttl {
+/* .bn_ttl {
 	font-size: 5rem;
 	font-weight: 600;
 	padding-bottom: 0.3rem;
 	color: whitesmoke;
 	margin-bottom: -1.1%;
-}
+} */
 
 .bn_dsc {
 	width: 45rem;
 	line-height: 1.3;
-	padding-top: 1rem;
+	padding-y: 1rem;
 	font-size: 1.2rem;
 	max-width: 560px;
 	height: 80px;

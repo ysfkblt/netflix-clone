@@ -18,8 +18,8 @@ export default function Row({ title, fetchUrl, lrgpstr }) {
 	}, [fetchUrl]);
 
 	return (
-		<div className='row'>
-			<h2 style={{ color: lrgpstr ? '#e50915' : 'none' }}>{title}</h2>
+		<div className='row pt-16 xl:pt-2 text-base font-semibold xl:font-normal xl:text-xl'>
+			<h2 style={{ color: lrgpstr && '#e50915' }}>{title}</h2>
 			<div className='row__posters'>
 				{mvs.map((mv) => (
 					<img
@@ -27,7 +27,7 @@ export default function Row({ title, fetchUrl, lrgpstr }) {
 							lrgpstr ? mv.poster_path : mv.backdrop_path
 						}`}
 						alt={mv.name}
-						className={`row__poster ${lrgpstr && 'row__posterlg'}`}
+						className={`row__poster  ${lrgpstr && 'row__posterlg'}`}
 						key={mv.id}
 					/>
 				))}

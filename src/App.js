@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Banner from './cmp/Banner';
-import Footer from './cmp/Footer';
-import Navigation from './cmp/Navigation';
-import Row from './cmp/Row';
+import Banner from './Components/Banner';
+import Footer from './Components/Footer';
+import Navigation from './Components/Navigation';
+import Row from './Components/Row';
 import requests from './requests';
 
 export default function App() {
 	return (
-		<div className='app'>
+		<div className='app select-none'>
 			<Navigation />
 			<Banner />
 			<Row
@@ -30,8 +30,4 @@ export default function App() {
 			<Footer />
 		</div>
 	);
-}
-
-{
-	/* <h1 className='lgclr'>Netflix</h1> */
 }
